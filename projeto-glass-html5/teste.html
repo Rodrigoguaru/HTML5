@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Apredendo JavaScript</title>
+<meta charset="UTF-8">
+<script>
+    function AcendeLampada (){
+        document.getElementById ("luz") .src="_imagens/lampada-acesa.jpg";
+    }
+    function ApagaLampada (){
+        document.getElementById ("luz") .src="_imagens/lampada-apagada.jpg";
+    }
+    function QuebraLampada (){
+        document.getElementById ("luz") .src="_imagens/lampada-quebrada.jpg";
+    }
+
+</script>
+
+</head>
+<body>
+    <h1>Acendendo a Lâmpada</h1>
+    <img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="AcendeLampada()" onmouseout="ApagaLampada()" onclick="QuebraLampada()">
+
+
+</body>
+
+
+
+
+</html>
